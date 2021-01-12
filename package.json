@@ -1,0 +1,21 @@
+{
+  "name": "term",
+  "version": "1.0.0",
+  "description": "terminal with socket.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "node server.js",
+    "client": "node web-server.js"
+  },
+  "author": "jeremie payet",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.17.1",
+    "http": "*",
+    "node-pty": "0.9.0",
+    "socket.io": "3.0.5",
+    "xterm": "^4.9.0",
+    "xterm-addon-fit": "0.4.0"
+  }
+}
